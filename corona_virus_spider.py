@@ -11,7 +11,7 @@ class CoronaVirusSpider(object):
 
     def get_content_from_url(self, url):
         """
-        根据URL获取响应内容
+        get response content based on URL
         :param url: 请求的URL
         :return: URL的响应的内容字符串
         """
